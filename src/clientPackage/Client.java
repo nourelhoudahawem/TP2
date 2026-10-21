@@ -24,7 +24,7 @@ public class Client {
 
             System.out.println("Connecté au serveur.");
             while (true) {
-                System.out.print("Entrez une opération (ex. 55 * 25) ou FIN pour quitter : ");
+                System.out.print("Entrez une opération  ou FIN pour quitter : ");
                 String ligne = sc.nextLine();
 
                 if (ligne.trim().equalsIgnoreCase("FIN")) {
