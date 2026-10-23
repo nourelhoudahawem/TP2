@@ -2,14 +2,14 @@
 ## Activité 2-1 : Échange de CC entre Client/Serveur via les Sockets TCP 
 Le client envoie une opération arithmétique complète au serveur sous forme de chaîne de caractères. Le serveur effectue le calcul et renvoie le résultat au client.
 ## 1.Exécution du serveur
-![Serveur en attente de connexion](screenshots/1-serveur-connecté.png)
+![Serveur en attente de connexion](screenshots/1-serveur-connecte.png)
  ## 2.Connexion du client
-![connexion du client](screenshots/2-client-connecté.png)
+![connexion du client](screenshots/2-client-connecte.png)
 ## 3. Calculatrice avec échange de chaînes de caractères
 Le client saisit une opération arithmétique, par exemple 34 * 55, puis l’envoie au serveur sous forme de chaîne de caractères. Le serveur analyse l’opération, effectue le calcul et renvoie le résultat au client.
 ## 3.1.Tests des opérations arithmétiques
 Cette capture permet de vérifier le fonctionnement des quatre opérations arithmétiques : l’addition, la soustraction, la multiplication et la division. Le client envoie les opérations au serveur, qui effectue les calculs et renvoie les résultats.
-![test des opération](screenshots/3-opérations.png)
+![test des opération](screenshots/3-operations.png)
 ## 3.2.Validation des erreurs
 Le client vérifie la syntaxe avant d’envoyer l’opération au serveur. Les opérations incorrectes, comme 25 ** 55 ou abc + 3, sont rejetées.
 ![validation des erreurs](screenshots/4-erreurs.png)
